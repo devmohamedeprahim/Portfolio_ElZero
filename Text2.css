@@ -1,0 +1,241 @@
+
+
+body
+{
+    height: 30000px;
+}
+/*start header*/
+.container
+{
+    width: 1170px;
+    margin: auto;
+}
+.clearfix
+{
+    clear: both;
+}
+
+.header .slider
+{
+    background-color: #EEE;
+    height: 600px;
+}
+
+.header .navbar
+{
+    background-color: #252F31;
+    color: #FFF;
+    overflow: hidden;
+}
+
+.header .navbar h2
+{
+    float: left;
+}
+
+.header .navbar h2 span
+{
+    color: #2ecc71;
+}
+
+.header .navbar ul
+{
+    list-style: none;
+    padding-left: 0;
+  
+    float: right;
+    
+}
+
+.header .navbar ul li
+{
+    float: left;
+    padding: 10px;
+}
+
+/*end header*/
+
+/*start features*/
+.features
+{
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.features .feat
+{
+    float: left;
+    width: 33%;
+    height: 150px;
+
+    
+}
+/* end features*/
+/* start about-me */
+
+.about-me
+{
+    background-color: #F2F2F2;
+    overflow: hidden;
+}
+
+.about-me .image
+{
+    width: 33%;
+    float: left
+    
+}
+.about-me .image img
+{
+    width: 95%;
+}
+
+.about-me .info
+{
+    width: 77%;
+    
+}
+
+.about-me .info .hobbies
+{
+    overflow: hidden;
+    margin: 20px;
+}
+.about-me .info .hobbies > div
+{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+/* end about-me */
+
+/* start my skill */
+.my-skills
+{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    overflow: hidden;
+    
+}
+
+.my-skills .skills , .my-skills .prefgress
+{
+    width: 50%;
+    float: left;
+}
+/* end my-skill*/
+
+
+/* start Resume*/
+.Resume 
+{
+    background-color: #F2F2F2;
+    text-align: center;
+}
+/* end Resume */
+
+/* start  My Education */
+. My-Education
+{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    overflow: hidden;
+    
+}
+
+.My-Education .main , .My-Education .exp
+{
+    width: 50%;
+    float: left;
+    padding-top: 20px;
+}
+/* end  My Education*/
+
+/* start testiomeials*/
+.testiomeials
+{
+    background-color: #F2F2F2;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+/* end testiomeials */
+
+/* start Portfolio*/
+
+
+.Portfolio
+{
+    padding-bottom: 30px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.Portfolio .our-work
+{
+    overflow: hidden;
+}
+
+.Portfolio .our-work > div
+{
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 15px;
+}
+.Portfolio .our-work > div img
+{
+    width: 95%;
+    margin: 10px;
+}
+
+/* start Contact Me*/
+.contact
+{
+    background-color: #252F31;
+    overflow: hidden;
+}
+.contact h2 {color: #FFF;}
+.contact p {color: #6A6E71;}
+
+.contact .info
+
+{
+    width: 50%;
+    float: left;
+}
+
+.contact .form
+{
+    width: 50%
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* end Portfolio */
+
+
+
+
+
+
+
+
+
+
+
+
+
