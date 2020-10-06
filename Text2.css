@@ -1,5 +1,4 @@
 
-
 body
 {
     height: 30000px;
@@ -18,7 +17,10 @@ body
 .header .slider
 {
     background-image: url('images/147.jpg');
-    background-size: cover;
+   -webkit-background-size: cover;  /* Css3*/
+    -moz-background-size: cover;  /* Css3*/
+   -o-background-size: cover;  /* Css3*/
+    background-size: cover;  /* Css3*/
     background-color: #000;
     height: 750px;
 }
@@ -168,17 +170,16 @@ body
     
 }
 
-.about-me .info > p
-{
-    margin: 0 0 10px 50px;
 
-}
 .about-me .info p
 {
     line-height: 1.6;
     color: #666;
 }
-
+.about-me .info p :last-child
+{
+    margin: 40px 0 0 0;
+}
 
 .about-me .info .hobbies
 {
@@ -242,6 +243,60 @@ body
     width: 50%;
     float: left;
 }
+
+
+.my-skills .skills h2
+{
+    color: #555;
+    margin: 20px 0 20px 0;
+}
+ 
+.my-skills .skills p
+{
+    line-height: 1.7;
+    color: #666;
+}
+.my-skills .skills p :last-child
+{
+    margin: 20px 0 0 0;
+}
+.my-skills .skills button
+{
+    background: none;
+    color: #252F31 ;
+    border:  3px solid  #252F31;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+ 
+.my-skills .prefgress .technique{margin-left: 50px;}
+
+.my-skills .prefgress .technique h3
+{
+    color: #555;
+}
+
+.my-skills .prefgress .technique div
+{
+    background-color: #F2F2F2;
+    height: 25px;
+}
+
+.my-skills .prefgress .technique div span
+{
+    background-color: #5c7265;
+    height: 25px;
+    display: block;
+    text-align: right;
+    line-height: 25px;
+    color: #FFF;
+    font-weight: bold;
+}
+
+
+
 /* end my-skill*/
 
 
@@ -250,6 +305,29 @@ body
 {
     background-color: #F2F2F2;
     text-align: center;
+}
+.Resume h2
+{
+    color: #555;
+    padding-top: 20px;
+
+}
+.Resume p
+{
+    color: #888;
+    line-height: 1.7;
+    font-size: 17px;
+}
+.Resume button
+{
+    background: none;
+    color: #252F31;
+    border: 3px solid #252F31;
+    padding: 10px 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-weight: bold;
 }
 /* end Resume */
 
@@ -261,6 +339,52 @@ body
     overflow: hidden;
     
 }
+
+
+.My-Education .main h2
+{
+    color: #555;
+    margin: 20px 0 20px 0;
+}
+ 
+.My-Education .main p
+{
+    line-height: 1.7;
+    color: #666;
+}
+.My-Education .main p :last-child
+{
+    margin-top: 20px;
+}
+.My-Education .exp span
+{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.My-Education .exp h3 
+{
+    margin: 60px 0 0 30px;
+    color: #555;
+}
+.My-Education .exp p
+{
+    margin-left:30px ;
+    color: #888;
+    line-height: 1.7;
+}
+.My-Education .exp button
+{
+    margin-left:30px ;
+    background-color: #5C7265;
+    color: #FFF;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
 
 .My-Education .main , .My-Education .exp
 {
@@ -274,10 +398,53 @@ body
 .testiomeials
 {
     background-color: #F2F2F2;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     padding-top: 30px;
     text-align: center;
 }
+
+.testiomeials q
+{
+    color: #888;
+    line-height: 1.7;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+.testiomeials h3
+{
+    color: #555;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+.testiomeials ul
+{
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+.testiomeials ul li
+{
+    width: 12px;
+    height: 12px;
+    border: solid 2px #565656;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+.testiomeials ul li:hover
+
+{background-color: #565656;}
+
+.testiomeials ul li .actvie
+{background-color: #565656;}
+
+
 /* end testiomeials */
 
 /* start Portfolio*/
@@ -285,10 +452,24 @@ body
 
 .Portfolio
 {
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 50px;
+    padding-top: 70px;
     text-align: center;
 }
+.Portfolio h2
+{
+    color: #555;
+    font-size: 20px;
+    font-weight: bold;
+}
+.Portfolio p
+{
+    color: #888;
+    line-height: 1.7;
+    margin-bottom: 40px;
+    
+}
+
 
 .Portfolio .our-work
 {
@@ -305,6 +486,8 @@ body
 {
     width: 95%;
     margin: 10px;
+    /* background-color: #FFF; */
+    border: 4px solid #CCC;
 }
 
 /* start Contact Me*/
